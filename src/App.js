@@ -2,7 +2,8 @@
 import React from 'react';
 import Footer from './Components/FooterComponents/Footer.js';
 import MeetTheTeam from './Components/MeetTheTeam';
-import Navbar from './Components/Navbar'
+import GetMoreWithUs from './Components/GetMoreWithUs';
+import Navbar from './Components/Navbar';
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
       <div>All Services</div>
       <div>Latest Projects</div>
       <div>Achievements</div>
-      < MeetTheTeam />
-      <div>Get More with Us</div>
+      <MeetTheTeam />
+      <GetMoreWithUs />
       <div>What People Say</div>
       <div>Latest Blog Posts</div>
       <Footer />
