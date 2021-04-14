@@ -2,8 +2,8 @@
 import React from 'react';
 import './App.css';
 import Footer from './Components/FooterComponents/Footer.js';
-import MeetTheTeam from './MeetTheTeam';
-import Navbar from './Navbar'
+import MeetTheTeam from './Components/MeetTheTeam';
+import Navbar from './Components/Navbar'
 
 function App() {
   return (
