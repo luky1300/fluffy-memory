@@ -1,5 +1,7 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import MeetTheTeam from './MeetTheTeam';
 
 function App() {
   return (
@@ -9,7 +11,7 @@ function App() {
       <div>All Services</div>
       <div>Latest Projects</div>
       <div>Achievements</div>
-      <div>Meet the Team</div>
+      < MeetTheTeam />
       <div>Get More with Us</div>
       <div>What People Say</div>
       <div>Latest Blog Posts</div>
