@@ -1,1 +1,13 @@
+h2 {
+  font-size: 42px;
+}
 
+.get-more-with-us-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.get-more-with-us-img {
+  display: flex;
+  justify-content: center;
+}
