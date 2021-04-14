@@ -11,3 +11,25 @@ h2 {
   display: flex;
   justify-content: center;
 }
+
+.number-tabs {
+  display: flex;
+  justify-content: space-between;
+  font-size: 38px;
+  color: #9b9b9b;
+  border-bottom: 3px solid #e1e1e1;
+}
+
+.number-tabs p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.number-tabs p:hover {
+  color: #7c73fa;
+  cursor: pointer;
+}
+
+.selected {
+  color: #7c73fa;
+}

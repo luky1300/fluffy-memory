@@ -6,6 +6,12 @@ function GetMoreWithUs() {
     <section className="get-more-with-us-container">
       <div>
         <h2>Get More With Us</h2>
+        <div className="number-tabs">
+          <p className="selected">01</p>
+          <p>02</p>
+          <p>03</p>
+          <p>04</p>
+        </div>
       </div>
       <div className="get-more-with-us-img">
         <img
