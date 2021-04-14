@@ -16,7 +16,7 @@ header {
 }
 
 .navbar {
-  width: 95%;
+  width: 90%;
   align-self: center;
   height: inherit;
   display: flex;
@@ -26,7 +26,7 @@ header {
 
 .nav-links {
   list-style-type: none; /* Remove bullets */
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: space-between;
   align-items: center;
