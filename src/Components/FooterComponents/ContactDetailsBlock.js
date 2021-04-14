@@ -4,18 +4,18 @@ import ContactItem from "./ContactItem";
 
 function ContactDetailsBlock() {
   return (
-    <section class="footer-contacts">
+    <section className="footer-contacts">
       <img
         src="https://ld-wt73.template-help.com/wt_prod-18959/images/logo-inverse-191x52.png"
         alt="DreamSoft Logo"
       />
-      <p class="about-company">
+      <p className="about-company">
         Our company has been developing high-quality and reliable software for
         corporate needs since 2008. We are renowned professionals of software
         development.
       </p>
 
-      <div class="address-block-container">
+      <div className="address-block-container">
         <ContactItem
           name="Address"
           value="4730 Crystal Springs Dr, Los Angeles, CA 90027"
@@ -26,7 +26,7 @@ function ContactDetailsBlock() {
           value="info@demolink.org, mail@demolink.org"
         />
       </div>
-      <div class="social-media-links-container">
+      <div className="social-media-links-container">
         <img src="img/iconfinder_Circled_Facebook.svg" alt="Facebook Icon" />
         <img src="img/iconfinder_Circled_Instagram.svg" alt="Instagram Icon" />
         <img src="img/iconfinder_Circled_Linkedin.svg" alt="Linkedin Icon" />
