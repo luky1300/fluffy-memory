@@ -1,0 +1,156 @@
+footer {
+    background-color: #1c192a;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
+    justify-content: space-around;
+  }
+  
+  .footer-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 40px;
+    width: 400px;
+  }
+  
+  .footer-contacts img {
+    width: 200px;
+  
+  }
+  
+  .about-company {
+    color: #9b9b9b;
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .address-block-container {
+    flex-direction: column;
+  }
+  
+  .one-contact-block {
+    border-bottom: 1px solid #44424e;
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0 10px 0;
+  }
+  
+  .one-contact-block h2 {
+    color: #9f97f9;
+    font-size: 15px;
+    line-height: 1em;
+    margin: 10px 10px 10px 0;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  
+  .one-contact-block p {
+    color: white;
+    font-size: 14px;
+    margin: auto 0;
+    padding: 0;
+  }
+  
+  .changing-color:hover {
+    color: #9f97f9;
+  }
+  
+  .social-media-links-container {
+    display: flex;
+    margin: 20px 0 0 0;
+  }
+  
+  .social-media-links-container img {
+    height: 50px;
+    margin-right: 10px;
+    width: 50px;
+  }
+  
+  .contact-form {
+    margin: 40px;
+    width: 400px;
+  }
+  
+  .contact-form h1 {
+    color: #696770;
+  }
+  
+  .input-field-1,
+  .input-field-2 {
+    background-color: #2c2b39;
+    border: none;
+    color: white;
+    font-family: inherit;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+    margin: 5px;
+    padding-left: 20px;
+    width: 400px;
+  }
+  
+  .input-field-2 {
+    height: 150px;
+  }
+  
+  .input-field-1:focus,
+  .input-field-2:focus {
+    border: 0;
+    outline: 0;
+  }
+  
+  .send-message-button {
+    background-color: #756aee;
+    border: none;
+    color: white;
+    font-weight: bold;
+    height: 50px;
+    margin: 10px 0 0 5px;
+    text-transform: uppercase;
+    width: 420px;
+  }
+  
+  .what-we-offer {
+    margin: 40px;
+    width: 400px;
+  }
+  
+  .what-we-offer h1 {
+    color: #696770;
+    font-size: 2em;
+  }
+  
+  .what-we-offer-item {
+    border-bottom: 1px solid #44424e;
+    border-top: 1px solid #44424e;
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    margin: 0;
+    padding-top: 15px;
+    transition: all 0.5s;
+  }
+  
+  .what-we-offer p {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .what-we-offer p:hover {
+    color: #756aee;
+    letter-spacing: 0.2em;
+  }
+  
+  .triangle {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-right: 10px solid #44424e;
+    border-bottom: 5px solid transparent;
+    margin: 10px 0;
+  }

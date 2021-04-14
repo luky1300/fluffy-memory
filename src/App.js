@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import React from 'react';
 import './App.css';
+import Footer from './Components/FooterComponents/Footer.js';
 import MeetTheTeam from './MeetTheTeam';
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
       <div>Get More with Us</div>
       <div>What People Say</div>
       <div>Latest Blog Posts</div>
-      <div>Footer</div>
+      <Footer />
     </div>
   );
 }
