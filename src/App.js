@@ -2,11 +2,12 @@
 import React from 'react';
 import './App.css';
 import MeetTheTeam from './MeetTheTeam';
+import Navbar from './Navbar'
 
 function App() {
   return (
     <div className="App">
-      <div>Navbar</div>
+      <Navbar />
       <div>Carousel</div>
       <div>All Services</div>
       <div>Latest Projects</div>
