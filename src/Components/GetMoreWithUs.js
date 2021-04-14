@@ -18,6 +18,12 @@ function GetMoreWithUs() {
           accessible to our clients and subscribers. You can also find out about
           free apps in our blog.
         </p>
+        <div className="bttn-container">
+          <button className="get-in-touch-bttn">GET IN TOUCH</button>
+          <button className="download-presentation-bttn">
+            DOWNLOAD PRESENTATION
+          </button>
+        </div>
       </div>
       <div className="get-more-with-us-right-container">
         <img
