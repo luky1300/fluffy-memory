@@ -1,0 +1,215 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+a:focus {
+  outline: none !important;
+}
+
+*:focus {
+  outline: none;
+}
+
+.all-services-container {
+  margin-top: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.all-services-cards,
+.all-services-logo-img {
+  height: 592px;
+  width: 425px;
+}
+
+.all-services-cards {
+  list-style-type: none;
+  margin-left: 150px;
+  width: 570px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.all-services-card {
+  list-style-type: none;
+  height: 47.5%;
+  width: 47%;
+  box-shadow: 0.5px 0.5px 5px rgb(227, 223, 223);
+  display: flex;
+  padding-top: 30px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+}
+.main-card {
+  padding-top: 0px;
+  justify-content: center;
+}
+.all-services-card h3,
+p {
+  font-size: 32px;
+  font-weight: 500;
+  margin: 0 20px;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  color: #151515;
+  text-transform: capitalize;
+  letter-spacing: 0.024em;
+  word-spacing: 0.05em;
+  margin: 0 20px;
+  text-align: center;
+}
+p {
+  text-transform: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.all-services-divider-line {
+  position: relative;
+  max-width: 126px;
+  width: 100px;
+  height: 2px;
+  box-shadow: none;
+  margin: 20px auto 22px;
+}
+.all-services-divider-line::before,
+.all-services-divider-line::after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  left: 15px;
+  right: 15px;
+  background: #d7d7d7;
+  transition: all 0.3s ease;
+}
+
+.all-services-divider-line::after {
+  left: 50%;
+  right: 50%;
+}
+.all-services-cards li:hover .all-services-divider-line::before {
+  left: 50%;
+  right: 50%;
+  transition: all 0.3s ease;
+}
+.all-services-cards li:hover .all-services-divider-line::after {
+  left: 0%;
+  right: 0%;
+  background: #756aee;
+  transition: all 0.3s ease;
+}
+
+.link-bttn {
+  position: relative;
+  overflow: hidden;
+  min-width: 200px;
+  padding: 17px 33px 15px;
+  font-size: 14px;
+  line-height: 1.34;
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: center;
+  cursor: pointer;
+  border: solid 1.5px;
+  vertical-align: middle;
+  user-select: none;
+}
+.primary-bttn,
+.primary-bttn:focus {
+  color: white;
+  background-color: #756aee;
+  border-color: #756aee;
+}
+
+.primary-bttn:hover,
+.primary-bttnactive {
+  color: white;
+  background-color: #151515;
+  border-color: #151515;
+}
+
+.primary-bttn {
+  position: relative;
+  z-index: 0;
+  transition: background-color 0.4s, border-color 0.1s, color 0.2s;
+}
+.primary-bttn::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #151515;
+  z-index: -1;
+  opacity: 0;
+  transform: scale3d(0.7, 1, 1);
+  transition: transform 0.42s, opacity 0.4s;
+}
+
+.primary-bttn:hover::before {
+  opacity: 1;
+  transform: scale3d(1, 1, 1);
+}
+
+.allServices-triangle {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 70px;
+  height: 70px;
+}
+
+.allServices-triangle img {
+  height: 50px;
+  width: 50px;
+}
+
+.allServices-triangle::after {
+  position: absolute;
+  content: '';
+  bottom: 20px;
+  border-bottom: solid rgb(240, 238, 238) 63px;
+  border-left: solid transparent 35px;
+  border-right: solid transparent 35px;
+  transform: rotate(17deg);
+  transition: all 0.3s ease;
+  z-index: -1;
+}
+
+.all-services-card:hover .allServices-triangle::after {
+  transform: rotate(0deg);
+  transition: all 0.3s ease;
+}
+
+.secondary-bttn {
+  color: black;
+  font-size: 18px;
+  margin-top: 5px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all 0.5s ease-in-out;
+}
+.secondary-bttn:hover {
+  color: #756aee;
+  transition: all 0.3s ease-in-out;
+}

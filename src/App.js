@@ -1,16 +1,16 @@
 // import logo from './logo.svg';
 import React from 'react';
-import './App.css';
 import Footer from './Components/FooterComponents/Footer.js';
 import MeetTheTeam from './Components/MeetTheTeam';
 import Navbar from './Components/Navbar'
+import AllSevices from './Components/AllServices'
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <div>Carousel</div>
-      <div>All Services</div>
+      <AllSevices />
       <div>Latest Projects</div>
       <div>Achievements</div>
       < MeetTheTeam />
