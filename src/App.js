@@ -5,7 +5,8 @@ import GetMoreWithUs from './Components/GetMoreWithUs';
 import Navbar from './Components/Navbar';
 import LatestBlog from './Components/LatestBlog';
 import WhatPeopleSay from './Components/WhatPeopleSay';
-import AllSevices from './Components/AllServices'
+import AllSevices from './Components/AllServices';
+import LatestProjects from './Components/LatestProjects';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Navbar />
       <div>Carousel</div>
       <AllSevices />
-      <div>Latest Projects</div>
+      <LatestProjects />
       <div>Achievements</div>
       <MeetTheTeam />
       <GetMoreWithUs />
