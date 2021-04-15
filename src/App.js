@@ -5,6 +5,7 @@ import MeetTheTeam from './Components/MeetTheTeam';
 import GetMoreWithUs from './Components/GetMoreWithUs';
 import Navbar from './Components/Navbar';
 import LatestBlog from './Components/LatestBlog';
+import WhatPeopleSay from './Components/WhatPeopleSay';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <div>Achievements</div>
       <MeetTheTeam />
       <GetMoreWithUs />
-      <div>What People Say</div>
+     <WhatPeopleSay />
      <LatestBlog />
       <Footer />
     </div>
