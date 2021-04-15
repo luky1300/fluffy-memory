@@ -16,8 +16,9 @@ function MeetTheTeam(){
                     <h2 className="meet-the-team-h2">Meet The Team</h2>
                     <div className="meet-the-team-main-container">
 
-                        {teamDept.map((team, index) => (
-                              <div key={index} className="meet-team-block">
+                        {teamDept.map((team) => (
+
+                              <div key={Math.random().toString(36).substr(2, 9)} className="meet-team-block">
                                     <img 
                                         src={team.img_path}
                                         alt=""
