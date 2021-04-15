@@ -68,3 +68,9 @@ header {
   bottom: 3px;
   transition: 0.3s ease-in-out;
 }
+
+@media (max-width: 1025px) {
+  .nav-links a {
+    display: none;
+  }
+}
