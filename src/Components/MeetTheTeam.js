@@ -17,13 +17,12 @@ function MeetTheTeam(){
                     <div className="meet-the-team-main-container">
 
                         {teamDept.map((team, index) => (
-                              <div id={index} className="meet-team-block">
+                              <div key={index} className="meet-team-block">
                                     <img 
-                                        id={index}
                                         src={team.img_path}
                                         alt=""
                                     />
-                                    <div id={index} className="meet-team-text-block">            
+                                    <div className="meet-team-text-block">            
                                         <h4 className="meet-the-team-h4">{team.name}</h4> 
                                         <p className="meet-the-team-p">{team.department}</p>                    
                                     </div>
