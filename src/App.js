@@ -1,8 +1,10 @@
-// import logo from './logo.svg';
 import React from 'react';
 import Footer from './Components/FooterComponents/Footer.js';
 import MeetTheTeam from './Components/MeetTheTeam';
-import Navbar from './Components/Navbar'
+import GetMoreWithUs from './Components/GetMoreWithUs';
+import Navbar from './Components/Navbar';
+import LatestBlog from './Components/LatestBlog';
+import WhatPeopleSay from './Components/WhatPeopleSay';
 import AllSevices from './Components/AllServices'
 
 function App() {
@@ -13,10 +15,10 @@ function App() {
       <AllSevices />
       <div>Latest Projects</div>
       <div>Achievements</div>
-      < MeetTheTeam />
-      <div>Get More with Us</div>
-      <div>What People Say</div>
-      <div>Latest Blog Posts</div>
+      <MeetTheTeam />
+      <GetMoreWithUs />
+      <WhatPeopleSay />
+      <LatestBlog />
       <Footer />
     </div>
   );

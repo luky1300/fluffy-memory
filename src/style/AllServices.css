@@ -20,20 +20,24 @@ a:focus {
 }
 
 .all-services-container {
-  margin-top: 10%;
+  max-width: 100%;
+  padding: 100px 150px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
 }
 .all-services-cards,
 .all-services-logo-img {
   height: 592px;
   width: 425px;
+  max-width: 95%;
+  max-height: 100%;
 }
 
 .all-services-cards {
   list-style-type: none;
-  margin-left: 150px;
   width: 570px;
   display: flex;
   flex-wrap: wrap;
@@ -41,7 +45,6 @@ a:focus {
   align-content: space-between;
 }
 .all-services-card {
-  list-style-type: none;
   height: 47.5%;
   width: 47%;
   box-shadow: 0.5px 0.5px 5px rgb(227, 223, 223);
@@ -212,4 +215,25 @@ p {
 .secondary-bttn:hover {
   color: #756aee;
   transition: all 0.3s ease-in-out;
+}
+
+@media (max-width: 1025px) {
+  .all-services-container {
+    padding: 0;
+    margin: 20% 0 0 10%;
+  }
+}
+
+@media (max-width: 770px) {
+  .all-services-cards {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    height: unset;
+  }
+  .all-services-card {
+    align-self: center;
+    height: 300px;
+    width: 80%;
+    margin: 10px 0 10px 0;
+  }
 }

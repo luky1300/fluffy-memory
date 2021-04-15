@@ -4,9 +4,9 @@ import '../style/AllServices.css'
 const AllSevices = () => {
     
     const data = [
-        {id: 1, name: 'Corporate solutions', message: 'Need specific software for your company? We are ready to develop it!', img: './img/allServices/phone.PNG'}, 
-        {id: 2, name: 'Call center solutions', message: 'Our experts provide custom products of any complexity for call centers.', img: './img/allServices/earphones.PNG'},
-        {id: 3, name:'Cloud development', message: 'We can also offer you reliable cloud development solutions.', img: './img/allServices/upload-cloud.PNG'}
+        {id: 1, type: 'Corporate solutions', message: 'Need specific software for your company? We are ready to develop it!', img: './img/allServices/phone.PNG'}, 
+        {id: 2, type: 'Call center solutions', message: 'Our experts provide custom products of any complexity for call centers.', img: './img/allServices/earphones.PNG'},
+        {id: 3, type:'Cloud development', message: 'We can also offer you reliable cloud development solutions.', img: './img/allServices/upload-cloud.PNG'}
     ]
 
     return (
@@ -24,7 +24,7 @@ const AllSevices = () => {
                             <div className="allServices-triangle" >
                                 <img src={service.img} alt=""/>
                             </div>
-                            <a className="secondary-bttn" href="http://localhost:3000/">{service.name}</a>
+                            <a className="secondary-bttn" href="http://localhost:3000/">{service.type}</a>
                             <div className="all-services-divider-line"></div>
                             <p>{service.message}</p>
                         </li>
