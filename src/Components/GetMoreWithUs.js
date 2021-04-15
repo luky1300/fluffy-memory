@@ -64,8 +64,10 @@ function GetMoreWithUs() {
             );
           })}
         </div>
-        <h3>{displayItem.header}</h3>
-        <p>{displayItem.body}</p>
+        <div className="content-area">
+          <h3>{displayItem.header}</h3>
+          <p className="get-more-with-us-text">{displayItem.body}</p>
+        </div>
         <div className="bttn-container">
           <button className="get-in-touch-bttn">GET IN TOUCH</button>
           <button className="download-presentation-bttn">
