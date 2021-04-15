@@ -4,6 +4,7 @@ import Footer from './Components/FooterComponents/Footer.js';
 import MeetTheTeam from './Components/MeetTheTeam';
 import GetMoreWithUs from './Components/GetMoreWithUs';
 import Navbar from './Components/Navbar';
+import LatestBlog from './Components/LatestBlog';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <MeetTheTeam />
       <GetMoreWithUs />
       <div>What People Say</div>
-      <div>Latest Blog Posts</div>
+     <LatestBlog />
       <Footer />
     </div>
   );
