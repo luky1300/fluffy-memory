@@ -13,6 +13,16 @@ function LatestProjects(){
            and software developers is always ready to create something unique for you.
            </p>
       </div>
+      <div className="navigation">
+              <ul>
+                  <li>All</li>
+                  <li>Mobile App</li>
+                  <li>Custom Software</li>
+                  <li>QA & TESTING</li>
+                  <li>UX AND DESIGN</li>
+              </ul>
+      </div> 
+      
         <div className="project-container">
         <img className="project-image" src="./img/grid-gallery-1.jpg" alt="FinStep" />
         <img className="project-image" src="./img/grid-gallery-3.jpg" alt="MobileFinance"/>

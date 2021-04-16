@@ -31,6 +31,31 @@
     padding-top: 10px;
 }
 
+.navigation{
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    padding: 30px;
+    margin: 10px;
+    font-weight:500;
+    font-size: 20px;
+}
 
+.navigation ul
+{
+    margin-left: 38rem;
+    padding: 0;
+}
+
+.navigation ul li
+{
+    list-style-type: none;
+    display: inline;
+    
+}
+
+.navigation li:not(:first-child):before {
+    content: " | ";
+}
 
 
