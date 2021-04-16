@@ -7,7 +7,7 @@ function LatestProjects(){
       <>
       <div>
            <h1 className="project-title">Latest projects</h1>
-           <p class="project-text">
+           <p className="project-text">
            In our portfolio, you can browse the latest products developed for our clients 
            for different corporate purposes. Our qualified team of interface designers 
            and software developers is always ready to create something unique for you.
