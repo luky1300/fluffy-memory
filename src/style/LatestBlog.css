@@ -1,11 +1,11 @@
 .container {
     float: left;
-    width: 30%;
+    width: 33%;
     padding: 0 10px;
   }
   
   .blog-post {
-    margin: 0 -5px;
+    margin: 0 8px;
     padding-left: 9.7em;
     padding-bottom: 6.2em;
   }
@@ -59,6 +59,6 @@
   
   .post-text {
   text-align: justify;
-  font-weight: lighter;
+  font-weight: normal;
   color: gray;
   }
