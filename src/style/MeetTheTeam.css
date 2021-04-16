@@ -57,6 +57,7 @@
 .meet-the-team-h4:hover {
   color: #7c73fa;
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .meet-the-team-p {
