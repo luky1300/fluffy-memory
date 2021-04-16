@@ -14,7 +14,7 @@ function LatestBlog(){
         <article>
           <a href=""><img src="./img/post-1.jpg" alt=""/>
             <div className="post-time">
-          <time datetime="2021-5-19"><span className="post-month">05/</span><span className="post-number">19</span></time>
+          <time dateTime="2021-5-19"><span className="post-month">05/</span><span className="post-number">19</span></time>
             </div>
           </a>
           <h4 className="post-title"><a href="#">Benefits Of Async/Await</a></h4>
@@ -24,12 +24,12 @@ function LatestBlog(){
       </div>
   
     
-        <div class="container">
+        <div className="container">
         <div className="card">
         <article>
           <a href=""><img src="./img/post-2.jpg" alt=""/>
             <div className="post-time">
-          <time datetime="2021-6-19"><span className="post-month">06/</span><span className="post-number">19</span></time>
+          <time dateTime="2021-6-19"><span className="post-month">06/</span><span className="post-number">19</span></time>
             </div>
           </a>
           <h4 className="post-title"><a href="#">Key Considerations Of iPaaS</a></h4>
@@ -44,7 +44,7 @@ function LatestBlog(){
         <article>
           <a href=""><img src="./img/post-3.jpg" alt=""/>
             <div className="post-time">
-          <time datetime="2021-7-19"><span className="post-month">07/</span><span className="post-number">19</span></time>
+          <time dateTime="2021-7-19"><span className="post-month">07/</span><span className="post-number">19</span></time>
             </div>
           </a>
           <h4 className="post-title"><a href="#">Hibernate Query Language</a></h4>
