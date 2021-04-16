@@ -7,6 +7,7 @@ import LatestBlog from './Components/LatestBlog';
 import WhatPeopleSay from './Components/WhatPeopleSay';
 import AllSevices from './Components/AllServices';
 import LatestProjects from './Components/LatestProjects';
+import YearsOfExperience from './Components/YearsOfExperince';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <div>Carousel</div>
       <AllSevices />
       <LatestProjects />
-      <div>Achievements</div>
+      <YearsOfExperience />
       <MeetTheTeam />
       <GetMoreWithUs />
       <WhatPeopleSay />
