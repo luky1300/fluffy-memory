@@ -17,7 +17,7 @@ function LatestBlog(){
           <time dateTime="2021-5-19"><span className="post-month">05/</span><span className="post-number">19</span></time>
             </div>
           </a>
-          <h4 className="post-title"><a href="#">Benefits Of Async/Await</a></h4>
+          <h4 className="post-title"><a href="http://localhost:3000/">Benefits Of Async/Await</a></h4>
           <p className="post-text">Asynchronous functions are a good and bad thing in JavaScript. The good side is that asynchronous functions are non-blocking and…</p>
         </article>
         </div>
@@ -32,7 +32,7 @@ function LatestBlog(){
           <time dateTime="2021-6-19"><span className="post-month">06/</span><span className="post-number">19</span></time>
             </div>
           </a>
-          <h4 className="post-title"><a href="#">Key Considerations Of iPaaS</a></h4>
+          <h4 className="post-title"><a href="http://localhost:3000/">Key Considerations Of iPaaS</a></h4>
           <p className="post-text">Digital transformation requires cloud appropriate adoption, legacy IT systems modernization, and Agile-based methodologies for faster…</p>
           </article>
         </div>
@@ -42,7 +42,7 @@ function LatestBlog(){
       <div className="container">
         <div className="card">
         <article>
-          <a href=""><img src="./img/post-3.jpg" alt=""/>
+          <a href="http://localhost:3000/"><img src="./img/post-3.jpg" alt=""/>
             <div className="post-time">
           <time dateTime="2021-7-19"><span className="post-month">07/</span><span className="post-number">19</span></time>
             </div>
