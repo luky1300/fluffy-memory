@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     position: relative;left: 100px;
-    margin-bottom: -680px;
+    margin-bottom: -600px;
   }
   
   .num {
@@ -27,7 +27,8 @@
   
   .years-column p {
     text-align: justify;
-    padding-top: 2.0em;
+    padding-top: 4em;
+    position: relative;right: 20px;
   }
   
   .v1 {
@@ -76,16 +77,14 @@
   
   .grid-column-3 {
     position: relative;right: -14em;
-    position: relative;top: -24em;
+    position: relative;top: -21.5em;
   }
   
   .grid-column-4 {
-    position: relative;top: -24em;
+    position: relative;top: -21.5em;
     position: relative;right: -14em;
   }
   
-  
-  /* Latest Projects */
   
   .image-clients {
     padding: 4em;
