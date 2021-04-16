@@ -14,8 +14,8 @@ function WhatWeOffer() {
     <section className="what-we-offer">
       <h1>What We Offer</h1>
       <div className="what-we-offer-container">
-        {services.map((service) => (
-          <figure className="what-we-offer-item">
+        {services.map((service, ind) => (
+          <figure className="what-we-offer-item" key={`weoffer${ind}`}>
             <p>{service}</p>
             <figure className="triangle"></figure>
           </figure>

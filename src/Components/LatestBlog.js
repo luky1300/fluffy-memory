@@ -44,7 +44,7 @@ function LatestBlog(){
         <article>
           <a href="http://localhost:3000/"><img src="./img/post-3.jpg" alt=""/>
             <div className="post-time">
-          <time datetime="2021-7-19"><span className="post-month">07/</span><span className="post-number">19</span></time>
+          <time dateTime="2021-7-19"><span className="post-month">07/</span><span className="post-number">19</span></time>
             </div>
           </a>
           <h4 className="post-title"><a href="#">Hibernate Query Language</a></h4>

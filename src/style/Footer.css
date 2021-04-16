@@ -53,6 +53,7 @@ footer {
     font-size: 14px;
     margin: auto 0;
     padding: 0;
+    text-align: left;
   }
   
   .changing-color:hover {
@@ -111,7 +112,7 @@ footer {
     height: 50px;
     margin: 10px 0 0 5px;
     text-transform: uppercase;
-    width: 420px;
+    width: 400px;
   }
   
   .what-we-offer {
