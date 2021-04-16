@@ -26,12 +26,12 @@ function LatestProjects(){
         <div className="project-container">
         <img className="project-image" src="./img/grid-gallery-1.jpg" alt="FinStep" />
         <img className="project-image" src="./img/grid-gallery-3.jpg" alt="MobileFinance"/>
-        <img className="project-image" src="./img/grid-gallery-2.jpg" alt="Q-Manage" />
+        <img className="project-image" src="./img/fullwidth-gallery-3-420x350.jpeg" alt="Q-Manage" />
         <img className="project-image" src="./img/grid-gallery-6.jpg" alt="WeatherCast"/>
         <img className="project-image" src="./img/projects04.jpeg" alt="FinStep"/>
         <img className="project-image" src="./img/projects06.jpeg " alt="FinStep"/>
         <img className="project-image" src="./img/grid-gallery-7.jpg " alt="FinStep"/>
-        <img className="project-image" src="./img/grid-gallery-5.jpg " alt="FinStep"/>
+        <img className="project-image" src="./img/fullwidth-gallery-8-420x350.jpeg " alt="FinStep"/>
         </div>
       </>
     );
