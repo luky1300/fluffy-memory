@@ -1,5 +1,5 @@
 import React from 'react';
-import React, {Fragment} from 'react';
+import  {Fragment} from 'react';
 import '../style/YearsOfExperience.css';
 
 function YearsOfExperience() {
@@ -11,8 +11,8 @@ function YearsOfExperience() {
           <div className="num">10</div>
           <div className="years-column">
             <div className="v1"></div>
-            <h3>Years of <br> Experience</br> </h3> 
-            <p>DreamSoft is a team of highly experienced <br> app designers and developers creating </br> <br> unique software for you.</br></p>
+            <h3>Years of <br /> Experience </h3> 
+            <p>DreamSoft is a team of highly experienced <br /> app designers and developers creating  <br/> unique software for you.</p>
             <div className="exp-btn"><a href="#"></a>Get In Touch</div>
             
             <div className="grid">
