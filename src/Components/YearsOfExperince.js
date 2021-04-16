@@ -1,10 +1,72 @@
 import React from 'react';
+import React, {Fragment} from 'react';
 import '../style/YearsOfExperience.css';
 
-function YearsOfExperience(){
+function YearsOfExperience() {
     return (
+    
+        <Fragment>
+        <section>
+        <div className="exp-column" >
+          <div className="num">10</div>
+          <div className="years-column">
+            <div className="v1"></div>
+            <h3>Years of <br> Experience</br> </h3> 
+            <p>DreamSoft is a team of highly experienced <br> app designers and developers creating </br> <br> unique software for you.</br></p>
+            <div className="exp-btn"><a href="#"></a>Get In Touch</div>
+            
+            <div className="grid">
+    
+              <div className="grid-column">
+                <div><span>2</span>
+                <span>k</span></div>
+                <h6>Apps Developed</h6>
+              </div>
+    
+              <div className="grid-column">
+              <div><span>40</span>
+                </div>
+                <h6>Consultants</h6>
+              </div>
+    
+              <div className="grid-column-3">
+                <div><span>12</span>
+                  </div>
+                  <h6>Awards Won</h6>
+              </div>
+    
+    
+              <div className="grid-column-4">
+                <div><span>160</span>
+                  </div>
+                  <h6>Employees</h6>
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </section>
+    
+        <div className="image-clients">
+    
+          <div className="client-box">
+    <img src="./img/clients-1.png" alt=""/><a href="#"></a>        
+          </div>
+          <div className="client-box">
+    <img src="./img/clients-2.png" alt=""/><a href="#"></a>
+          </div>
+          <div className="client-box">
+    <img src="./img/clients-3.png" alt=""/><a href="#"></a>
+          </div>
+          <div className="client-box">
+    <img src="./img/clients-4.png" alt=""/><a href="#"></a>
+          </div>
+        </div>
+        </Fragment>
+    
 
-    )
-}
+    );
+};
 
 export default YearsOfExperience;
+
