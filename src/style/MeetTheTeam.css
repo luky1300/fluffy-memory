@@ -40,12 +40,12 @@
   position: absolute;
   text-align: center;
   transition: transform 0.2s ease-in;
-  width: 200px;
+  width: 300px;
   z-index: 20;
 }
 
 .meet-team-text-block:hover {
-  width: 300px;
+  width: 350px;
 }
 
 .meet-the-team-h4 {
@@ -57,6 +57,7 @@
 .meet-the-team-h4:hover {
   color: #7c73fa;
   transition: all 0.3s;
+  cursor: pointer;
 }
 
 .meet-the-team-p {
@@ -64,4 +65,5 @@
   letter-spacing: 0.025em;
   line-height: 1.5;
   margin: 0;
+  color: white;
 }

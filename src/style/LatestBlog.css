@@ -1,0 +1,64 @@
+.container {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+  }
+  
+  .blog-post {
+    margin: 0 -5px;
+    padding-left: 9.7em;
+    padding-bottom: 6.2em;
+  }
+  
+  .blog-post:after {
+   content: "";
+   display: table;
+   clear: both;
+  }
+  
+  .blog-post h2 {
+   text-align: center;
+   padding-bottom: 1.2em;
+   padding-top: 2.2em;
+   font-weight: normal;
+   font-size: 2.9em;
+   margin-right: 8%;
+  }
+  
+  
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .post-number {
+    float: left;
+    font-size: 30px;
+  }
+  
+  .post-month {
+    float: left;
+    font-size: 30px;
+  }
+  
+  .post-title {
+    padding-bottom: 1.0em;
+    padding-top: 3.0rem;
+    margin-right: 10.0em;
+    font-size: 1.0rem;
+    font-weight: bold;
+  }
+  
+  .post-title a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .post-text {
+  text-align: justify;
+  font-weight: lighter;
+  color: gray;
+  }

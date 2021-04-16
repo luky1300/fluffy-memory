@@ -1,56 +1,38 @@
 import React from 'react';
 import '../style/MeetTheTeam.css';
 
+    const teamDept = [
+                        {name: "Ryan Wilson", department: "Director of Production", img_path: "./img/ryan-wilson.jpg" },
+                        {name: "Jill Peterson", department: "UI Designer", img_path: "./img/jill-peterson.jpg"},
+                        {name: "Sam Robinson", department: "Senior Developer", img_path: "./img/sam-robinson.jpg"},
+                        {name: "Mary Lee", department: "Software Developer", img_path: "./img/mary-lee.jpg"}
+                    ];
+
 function MeetTheTeam(){
     
     return (
 
-        <section className="meet-the-team-section">
-            <h2 className="meet-the-team-h2">Meet The Team</h2>
+                <section className="meet-the-team-section">
+                    <h2 className="meet-the-team-h2">Meet The Team</h2>
+                    <div className="meet-the-team-main-container">
 
-            <div className="meet-the-team-main-container">
+                        {teamDept.map((team) => (
 
-                <div className="meet-team-block">          
-                    <img 
-                        src="./img/ryan-wilson.jpg" 
-                        alt="ryan-wilson" 
-                    />
-                    <div className="meet-team-text-block">            
-                        <h4 className="meet-the-team-h4">Ryan Wilson</h4> 
-                        <p className="meet-the-team-p">Director of Production</p>                    
+                              <div key={Math.random().toString(36).substr(2, 9)} className="meet-team-block">
+                                    <img 
+                                        src={team.img_path}
+                                        alt=""
+                                    />
+                                    <div className="meet-team-text-block">            
+                                        <h4 className="meet-the-team-h4">{team.name}</h4> 
+                                        <p className="meet-the-team-p">{team.department}</p>                    
+                                    </div>
+                                </div> 
+                        ))
+                        }
                     </div>
-                </div>
-
-                <div className="meet-team-block">
-                    <img src="./img/jill-peterson.jpg" alt="" />
-
-                    <div className='meet-team-text-block'>                       
-                    <h4 className="meet-the-team-h4">Jill Peterson</h4>
-                    <p className="meet-the-team-p">UI Designer</p>            
-                    </div>
-                </div>
-
-                <div className="meet-team-block">
-                    <img src="./img/sam-robinson.jpg" alt="" />
-
-                    <div className='meet-team-text-block'>                        
-                    <h4 className="meet-the-team-h4">Sam Robinson</h4>
-                    <p className="meet-the-team-p">Senior Developer</p>            
-                    </div>
-                </div>
-
-                <div className="meet-team-block">
-                    <img src="./img/mary-lee.jpg" alt="" />
-
-                    <div className='meet-team-text-block'>                        
-                        <h4 className="meet-the-team-h4">Mary Lee</h4>
-                        <p className="meet-the-team-p">Software Developer</p>            
-                    </div>
-                </div>
-
-            </div>
-    </section>
-    );
+                </section>
+            );
 };
 
 export default MeetTheTeam;

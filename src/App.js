@@ -1,22 +1,25 @@
-// import logo from './logo.svg';
 import React from 'react';
 import Footer from './Components/FooterComponents/Footer.js';
 import MeetTheTeam from './Components/MeetTheTeam';
 import GetMoreWithUs from './Components/GetMoreWithUs';
 import Navbar from './Components/Navbar';
+import LatestBlog from './Components/LatestBlog';
+import WhatPeopleSay from './Components/WhatPeopleSay';
+import AllSevices from './Components/AllServices';
+import LatestProjects from './Components/LatestProjects';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
       <div>Carousel</div>
-      <div>All Services</div>
-      <div>Latest Projects</div>
+      <AllSevices />
+      <LatestProjects />
       <div>Achievements</div>
       <MeetTheTeam />
       <GetMoreWithUs />
-      <div>What People Say</div>
-      <div>Latest Blog Posts</div>
+      <WhatPeopleSay />
+      <LatestBlog />
       <Footer />
     </div>
   );
