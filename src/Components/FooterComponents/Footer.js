@@ -1,17 +1,17 @@
 import React from "react";
-import "../../style/Footer.css";
 import ContactDetailsBlock from "./ContactDetailsBlock";
-import ContactForm from "./ContactForm";
+import ContactFormStyled from "./ContactForm";
 import WhatWeOffer from "./WhatWeOffer";
+import Footer from "../../StyledComponents/Footer";
 
-function Footer() {
+function FooterStyled() {
   return (
-    <footer>
+    <Footer>
       <ContactDetailsBlock />
-      <ContactForm /> 
+      <ContactFormStyled />
       <WhatWeOffer />
-    </footer>
+    </Footer>
   );
 }
 
-export default Footer;
+export default FooterStyled;

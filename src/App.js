@@ -1,13 +1,13 @@
-import React from 'react';
-import Footer from './Components/FooterComponents/Footer.js';
-import MeetTheTeam from './Components/MeetTheTeam';
-import GetMoreWithUs from './Components/GetMoreWithUs';
-import Navbar from './Components/Navbar';
-import LatestBlog from './Components/LatestBlog';
-import WhatPeopleSay from './Components/WhatPeopleSay';
-import AllSevices from './Components/AllServices';
-import LatestProjects from './Components/LatestProjects';
-import YearsOfExperience from './Components/YearsOfExperince';
+import React from "react";
+import MeetTheTeam from "./Components/MeetTheTeam";
+import GetMoreWithUs from "./Components/GetMoreWithUs";
+import Navbar from "./Components/Navbar";
+import LatestBlog from "./Components/LatestBlog";
+import WhatPeopleSay from "./Components/WhatPeopleSay";
+import AllSevices from "./Components/AllServices";
+import LatestProjects from "./Components/LatestProjects";
+import YearsOfExperience from "./Components/YearsOfExperince";
+import FooterStyled from "./Components/FooterComponents/Footer.js";
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
       <GetMoreWithUs />
       <WhatPeopleSay />
       <LatestBlog />
-      <Footer />
+      <FooterStyled />
     </div>
   );
 }
