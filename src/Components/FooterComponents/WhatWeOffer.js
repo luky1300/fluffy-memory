@@ -1,28 +1,32 @@
 import React from "react";
-import "../../style/Footer.css";
+import {
+  ServiceItem,
+  ServiceItemText,
+  ServiceItemTriangle,
+  WhatWeOffer,
+} from "../../StyledComponents/WhatWeOffer";
+import { FooterTitle } from "../../StyledComponents/Footer";
 
 const services = [
-  "DB Managemen",
+  "DB Management",
   "IOS/MacOS",
   "Android Apps",
   "Windows Apps",
   "UX/UI Apps",
 ];
 
-function WhatWeOffer() {
+function WhatWeOfferStyled() {
   return (
-    <section className="what-we-offer">
-      <h1>What We Offer</h1>
-      <div className="what-we-offer-container">
-        {services.map((service, ind) => (
-          <figure className="what-we-offer-item" key={`weoffer${ind}`}>
-            <p>{service}</p>
-            <figure className="triangle"></figure>
-          </figure>
-        ))}
-      </div>
-    </section>
+    <WhatWeOffer>
+      <FooterTitle>What We Offer</FooterTitle>
+      {services.map((service, ind) => (
+        <ServiceItem key={`weoffer${ind}`}>
+          <ServiceItemText>{service}</ServiceItemText>
+          <ServiceItemTriangle />
+        </ServiceItem>
+      ))}
+    </WhatWeOffer>
   );
 }
 
-export default WhatWeOffer;
+export default WhatWeOfferStyled;

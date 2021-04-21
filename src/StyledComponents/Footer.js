@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const Footer = styled.footer`
+export const Footer = styled.footer`
   background-color: #1c192a;
   display: flex;
   flex-direction: row;
@@ -9,4 +9,7 @@ const Footer = styled.footer`
   justify-content: space-around;
 `;
 
-export default Footer;
+export const FooterTitle = styled.h1`
+  color: #696770;
+  font-size: 2em;
+`;
