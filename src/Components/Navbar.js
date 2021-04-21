@@ -26,9 +26,9 @@ export const Navbar = () => {
                     <ListItems >
                         <HomeLink href="http://localhost:3000">Home</HomeLink>
                     </ListItems>
-                    {links.map(value => (
+                    {links.map((value, idx )=> (
                         
-                            <ListItems key={value}>
+                            <ListItems key={value + idx + '#'}>
                                 <NavLink href="http://localhost:3000">{value}</NavLink>
                             </ListItems>        
                     ))}
