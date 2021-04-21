@@ -16,20 +16,20 @@ export const Navbar = () => {
 
     return (
         <Header>
-            <Nav className="navbar">
+            <Nav >
                 <Logo href="http://localhost:3000">
                     <LogoImage 
                     src="./img/jumbotron/logo-default-191x52.png" alt="MCLA LOGO" 
                     />
                 </Logo>
-                <NavLinks className="nav-links">
+                <NavLinks >
                     <ListItems >
-                        <HomeLink id="nav-home-link" href="http://localhost:3000">Home</HomeLink>
+                        <HomeLink href="http://localhost:3000">Home</HomeLink>
                     </ListItems>
                     {links.map(value => (
                         
                             <ListItems key={value}>
-                                <NavLink id="nav-home-link" href="http://localhost:3000">{value}</NavLink>
+                                <NavLink href="http://localhost:3000">{value}</NavLink>
                             </ListItems>        
                     ))}
                 </NavLinks>
