@@ -1,16 +1,16 @@
 import React from "react";
 import {
   ContactForm,
-  ContactFormTitle,
   ContactFormInputContacts,
   ContactFormInputMessage,
   ContactFormButton,
 } from "../../StyledComponents/FooterContactForm";
+import { FooterTitle } from "../../StyledComponents/Footer";
 
 function ContactFormStyled() {
   return (
     <ContactForm>
-      <ContactFormTitle>Questions? Contact Us</ContactFormTitle>
+      <FooterTitle>Questions? Contact Us</FooterTitle>
       <ContactFormInputContacts
         type="text"
         id="name"

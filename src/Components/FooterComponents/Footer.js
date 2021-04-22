@@ -1,15 +1,15 @@
 import React from "react";
-import ContactDetailsBlock from "./ContactDetailsBlock";
+import ContactsStyled from "./Contacts";
 import ContactFormStyled from "./ContactForm";
-import WhatWeOffer from "./WhatWeOffer";
-import Footer from "../../StyledComponents/Footer";
+import { Footer } from "../../StyledComponents/Footer";
+import WhatWeOfferStyled from "./WhatWeOffer";
 
 function FooterStyled() {
   return (
     <Footer>
-      <ContactDetailsBlock />
+      <ContactsStyled />
       <ContactFormStyled />
-      <WhatWeOffer />
+      <WhatWeOfferStyled />
     </Footer>
   );
 }
