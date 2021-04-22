@@ -1,58 +1,67 @@
 import React from 'react';
-import '../style/LatestBlog.css';
+import {
+  Container,
+  PostText,
+  blog_post,
+  PostTitle,
+  PostNumber,
+  PostMonth,
+  Card,
+  Heading,
+} from '../StyledComponents/LatestBlogStyled';
 
 function LatestBlog(){
     return (
 
-        <section className="blog-post">
+        <blog_post>
 
-        <h2>Latest Blog Posts</h2>
+        <Heading>Latest Blog Posts</Heading>
         
     
-        <div className="container">
-        <div className="card">
+        <Container>
+        <Card>
         <article>
           <a href=""><img src="./img/post-1.jpg" alt=""/>
             <div className="post-time">
-          <time dateTime="2021-5-19"><span className="post-month">05/</span><span className="post-number">19</span></time>
+          <time dateTime="2021-5-19"><PostMonth>05/</PostMonth><PostNumber>19</PostNumber></time>
             </div>
           </a>
-          <h4 className="post-title"><a href="http://localhost:3000/">Benefits Of Async/Await</a></h4>
-          <p className="post-text">Asynchronous functions are a good and bad thing in JavaScript. The good side is that asynchronous functions are non-blocking and…</p>
+          <PostTitle><a href="http://localhost:3000/">Benefits Of Async/Await</a></PostTitle>
+          <PostText>Asynchronous functions are a good and bad thing in JavaScript. The good side is that asynchronous functions are non-blocking and…</PostText>
         </article>
-        </div>
-      </div>
+        </Card>
+      </Container>
   
     
-        <div className="container">
-        <div className="card">
+        <Container>
+        <Card>
         <article>
           <a href=""><img src="./img/post-2.jpg" alt=""/>
             <div className="post-time">
-          <time dateTime="2021-6-19"><span className="post-month">06/</span><span className="post-number">19</span></time>
+          <time dateTime="2021-6-19"><PostMonth>06/</PostMonth><PostNumber>19</PostNumber></time>
             </div>
           </a>
-          <h4 className="post-title"><a href="http://localhost:3000/">Key Considerations Of iPaaS</a></h4>
-          <p className="post-text">Digital transformation requires cloud appropriate adoption, legacy IT systems modernization, and Agile-based methodologies for faster…</p>
+          <PostTitle><a href="http://localhost:3000/">Key Considerations Of iPaaS</a></PostTitle>
+          <PostText>Digital transformation requires cloud appropriate adoption, legacy IT systems modernization, and Agile-based methodologies for faster…</PostText>
           </article>
-        </div>
-      </div>
+        </Card>
+      </Container>
   
        
-      <div className="container">
-        <div className="card">
+      <Container>
+        <Card>
         <article>
           <a href="http://localhost:3000/"><img src="./img/post-3.jpg" alt=""/>
-            <div className="post-time">
-          <time dateTime="2021-7-19"><span className="post-month">07/</span><span className="post-number">19</span></time>
+            <div>
+          <time dateTime="2021-7-19"><PostMonth>07/</PostMonth><PostNumber>19</PostNumber></time>
             </div>
           </a>
-          <h4 className="post-title"><a href="#">Hibernate Query Language</a></h4>
-          <p className="post-text">In this tutorial, we will discuss the Hibernate Query Language. HQL is an object-oriented query language. Hibernate Query...</p>
+          <PostTitle><a href="#">Hibernate Query Language</a></PostTitle>
+          <PostText>In this tutorial, we will discuss the Hibernate Query Language. HQL is an object-oriented query language. Hibernate Query...</PostText>
         </article>
-        </div>
-      </div>
-      </section>
+        </Card>
+      </Container>
+      </blog_post>
 
 
 
