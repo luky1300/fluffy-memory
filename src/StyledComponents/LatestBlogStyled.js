@@ -6,7 +6,7 @@ width: 33%;
 padding: 0 5px;
 `
 
-const blog_post = styled.section`
+const BlogPost = styled.section`
     margin: 0 8px;
     padding-left: 5.7em;
     padding-bottom: 6.2em;
@@ -64,7 +64,7 @@ color: gray;
 export {
     Container,
     PostText,
-    blog_post,
+    BlogPost,
     PostTitle,
     PostNumber,
     PostMonth,

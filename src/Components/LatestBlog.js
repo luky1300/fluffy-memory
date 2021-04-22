@@ -2,7 +2,7 @@ import React from 'react';
 import {
   Container,
   PostText,
-  blog_post,
+  BlogPost,
   PostTitle,
   PostNumber,
   PostMonth,
@@ -13,7 +13,7 @@ import {
 function LatestBlog(){
     return (
 
-        <blog_post>
+        <BlogPost>
 
         <Heading>Latest Blog Posts</Heading>
         
@@ -61,7 +61,7 @@ function LatestBlog(){
         </article>
         </Card>
       </Container>
-      </blog_post>
+      </BlogPost>
 
 
 
