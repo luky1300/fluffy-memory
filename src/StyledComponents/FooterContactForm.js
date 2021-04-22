@@ -1,12 +1,8 @@
 import styled from "styled-components";
 
 export const ContactForm = styled.form`
-  margin: 40px;
-  width: 400px;
-`;
-
-export const ContactFormTitle = styled.h1`
-  color: #696770;
+  margin: 40px 0;
+  width: 30%;
 `;
 
 export const ContactFormInputContacts = styled.input`
@@ -19,7 +15,7 @@ export const ContactFormInputContacts = styled.input`
   height: 50px;
   margin: 5px;
   padding-left: 20px;
-  width: 400px;
+  width: 100%;
 
   &:focus
   border: 0;
@@ -38,5 +34,5 @@ export const ContactFormButton = styled.button`
   height: 50px;
   margin: 10px 0 0 5px;
   text-transform: uppercase;
-  width: 400px;
+  width: 100%;
 `;

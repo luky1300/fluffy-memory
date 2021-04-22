@@ -1,13 +1,17 @@
 import React from "react";
-import "../../style/Footer.css";
+import {
+  AddressItem,
+  AddressItemName,
+  AddressItemValue,
+} from "../../StyledComponents/FooterContacts";
 
-function ContactItem(props) {
+function ContactItemStyled(props) {
   return (
-    <div className="one-contact-block">
-      <h2>{props.name}</h2>
-      <p>{props.value}</p>
-    </div>
+    <AddressItem>
+      <AddressItemName>{props.name}</AddressItemName>
+      <AddressItemValue>{props.value}</AddressItemValue>
+    </AddressItem>
   );
 }
 
-export default ContactItem;
+export default ContactItemStyled;

@@ -1,33 +1,40 @@
 import React from 'react';
-import '../style/Navbar.css'
+import { 
+    Header,
+    Nav,
+    Logo,
+    LogoImage,
+    NavLinks,
+    ListItems,
+    NavLink,
+    HomeLink 
+} from '../StyledComponents/NavbarStyled'
 
 export const Navbar = () => {
 
-    const links = ['Home', 'About', 'Gallery', 'Pricing', 'Blog', 'Contact us', 'Pages']
+    const links = ['About', 'Gallery', 'Pricing', 'Blog', 'Contact us', 'Pages']
 
     return (
-        <header>
-            <nav className="navbar">
-                <a href="http://localhost:3000">
-                    <img
+        <Header>
+            <Nav >
+                <Logo href="http://localhost:3000">
+                    <LogoImage 
                     src="./img/jumbotron/logo-default-191x52.png" alt="MCLA LOGO" 
                     />
-                </a>
-                <ul className="nav-links">
-                    {links.map(value => (
-                        value === 'Home' ? (
-                            <li key={value}>
-                                <a id="nav-home-link" href="http://localhost:3000">{value}</a>
-                            </li>
-                        ) : (
-                            <li key={value}>
-                                <a href="http://localhost:3000">{value}</a>
-                            </li>
-                        )
+                </Logo>
+                <NavLinks >
+                    <ListItems >
+                        <HomeLink href="http://localhost:3000">Home</HomeLink>
+                    </ListItems>
+                    {links.map((value, idx )=> (
+                        
+                            <ListItems key={value + idx + '#'}>
+                                <NavLink href="http://localhost:3000">{value}</NavLink>
+                            </ListItems>        
                     ))}
-                </ul>
-            </nav>
-        </header>
+                </NavLinks>
+            </Nav>
+        </Header>
     )
 }
 
