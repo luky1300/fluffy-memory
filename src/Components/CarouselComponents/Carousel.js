@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-    Background,
+  Background,
   BackgroundHeader,
   BackgroundHeader3,
   Button,

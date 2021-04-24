@@ -8,12 +8,13 @@ import AllSevices from "./Components/AllServices";
 import LatestProjects from "./Components/LatestProjects";
 import YearsOfExperience from "./Components/YearsOfExperince";
 import FooterStyled from "./Components/FooterComponents/Footer.js";
+import Carousel from './Components/CarouselComponents/Carousel';
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <div>Carousel</div>
+      <Carousel />
       <AllSevices />
       <LatestProjects />
       <YearsOfExperience />
