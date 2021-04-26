@@ -1,6 +1,12 @@
 import React from 'react';
 import '../style/MeetTheTeam.css';
 
+import { 
+    MeetTheTeamSection,
+    MeetTheTeamHeader,
+    MeetTheTeamContainer
+} from '../StyledComponents/MeetTheTeamStyled'
+
     const teamDept = [
                         {name: "Ryan Wilson", department: "Director of Production", img_path: "./img/ryan-wilson.jpg" },
                         {name: "Jill Peterson", department: "UI Designer", img_path: "./img/jill-peterson.jpg"},
@@ -12,9 +18,9 @@ function MeetTheTeam(){
     
     return (
 
-                <section className="meet-the-team-section">
-                    <h2 className="meet-the-team-h2">Meet The Team</h2>
-                    <div className="meet-the-team-main-container">
+                <MeetTheTeamSection>
+                    <MeetTheTeamHeader>Meet The Team</MeetTheTeamHeader>
+                    <MeetTheTeamContainer>
 
                         {teamDept.map((team) => (
 
@@ -30,8 +36,8 @@ function MeetTheTeam(){
                                 </div> 
                         ))
                         }
-                    </div>
-                </section>
+                    </MeetTheTeamContainer>
+                </MeetTheTeamSection>
             );
 };
 
