@@ -5,7 +5,7 @@ import {
   BackgroundHeader3,
   Button,
 
-} from '../CarouselStyled';
+} from '../CarouselComponents/CarouselStyled';
 
 function Carousel(){
     return(
