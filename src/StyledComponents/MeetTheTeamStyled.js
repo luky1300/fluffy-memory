@@ -17,3 +17,9 @@ export const MeetTheTeamContainer = styled.div`
     display: flex;
     flex-wrap: wrap;
 `;
+
+export const MeetTheTeamBlock = styled.div`
+    display: flex;
+    margin: auto;
+    position: relative;
+`;

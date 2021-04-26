@@ -4,7 +4,8 @@ import '../style/MeetTheTeam.css';
 import { 
     MeetTheTeamSection,
     MeetTheTeamHeader,
-    MeetTheTeamContainer
+    MeetTheTeamContainer,
+    MeetTheTeamBlock
 } from '../StyledComponents/MeetTheTeamStyled'
 
     const teamDept = [
@@ -24,7 +25,7 @@ function MeetTheTeam(){
 
                         {teamDept.map((team) => (
 
-                              <div key={Math.random().toString(36).substr(2, 9)} className="meet-team-block">
+                              <MeetTheTeamBlock key={Math.random().toString(36).substr(2, 9)} >
                                     <img 
                                         src={team.img_path}
                                         alt=""
@@ -33,7 +34,7 @@ function MeetTheTeam(){
                                         <h4 className="meet-the-team-h4">{team.name}</h4> 
                                         <p className="meet-the-team-p">{team.department}</p>                    
                                     </div>
-                                </div> 
+                                </MeetTheTeamBlock> 
                         ))
                         }
                     </MeetTheTeamContainer>
