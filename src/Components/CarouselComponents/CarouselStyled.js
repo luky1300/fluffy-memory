@@ -30,8 +30,8 @@ const BackgroundHeader3 = styled.h3`
 const Button = styled.button`
     margin-top: 2vh;
     color: white;
-    background-color: purple;
-    border-color: 1px solid purple;
+    background-color: #7c73fa;
+    border-color: 1px solid #7c73fa;
     display: inline-block;
     min-width: 200px;
     padding: 17px 33px 15px;
