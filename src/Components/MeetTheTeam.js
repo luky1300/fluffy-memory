@@ -3,9 +3,12 @@ import '../style/MeetTheTeam.css';
 
 import { 
     MeetTheTeamSection,
-    MeetTheTeamHeader,
+    MeetTheTeamHeader2,
     MeetTheTeamContainer,
-    MeetTheTeamBlock
+    MeetTheTeamBlock,
+    MeetTheTeamBlockImg,
+    MeetTheTeamTextBlock,
+    MeetTheTeamHeader4
 } from '../StyledComponents/MeetTheTeamStyled'
 
     const teamDept = [
@@ -20,20 +23,20 @@ function MeetTheTeam(){
     return (
 
                 <MeetTheTeamSection>
-                    <MeetTheTeamHeader>Meet The Team</MeetTheTeamHeader>
+                    <MeetTheTeamHeader2>Meet The Team</MeetTheTeamHeader2>
                     <MeetTheTeamContainer>
 
                         {teamDept.map((team) => (
 
                               <MeetTheTeamBlock key={Math.random().toString(36).substr(2, 9)} >
-                                    <img 
+                                    <MeetTheTeamBlockImg
                                         src={team.img_path}
                                         alt=""
                                     />
-                                    <div className="meet-team-text-block">            
-                                        <h4 className="meet-the-team-h4">{team.name}</h4> 
+                                    <MeetTheTeamTextBlock>            
+                                        <MeetTheTeamHeader4>{team.name}</MeetTheTeamHeader4> 
                                         <p className="meet-the-team-p">{team.department}</p>                    
-                                    </div>
+                                    </MeetTheTeamTextBlock>
                                 </MeetTheTeamBlock> 
                         ))
                         }
