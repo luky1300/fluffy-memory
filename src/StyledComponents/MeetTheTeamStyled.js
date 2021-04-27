@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled from "styled-components";
 
 export const MeetTheTeamSection = styled.section`
     font-family: 'Poppins', sans-serif;
@@ -57,4 +57,12 @@ export const MeetTheTeamHeader4 = styled.h4`
     transition: all 0.3s;
     cursor: pointer; 
   }
+`;
+
+export const MeetTheTeamPara = styled.p `
+  font-weight: 400;
+  letter-spacing: 0.025em;
+  line-height: 1.5;
+  margin: 0;
+  color: white;
 `;

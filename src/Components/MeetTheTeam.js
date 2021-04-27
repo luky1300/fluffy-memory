@@ -1,5 +1,4 @@
 import React from 'react';
-import '../style/MeetTheTeam.css';
 
 import { 
     MeetTheTeamSection,
@@ -8,7 +7,8 @@ import {
     MeetTheTeamBlock,
     MeetTheTeamBlockImg,
     MeetTheTeamTextBlock,
-    MeetTheTeamHeader4
+    MeetTheTeamHeader4,
+    MeetTheTeamPara
 } from '../StyledComponents/MeetTheTeamStyled'
 
     const teamDept = [
@@ -35,7 +35,7 @@ function MeetTheTeam(){
                                     />
                                     <MeetTheTeamTextBlock>            
                                         <MeetTheTeamHeader4>{team.name}</MeetTheTeamHeader4> 
-                                        <p className="meet-the-team-p">{team.department}</p>                    
+                                        <MeetTheTeamPara>{team.department}</MeetTheTeamPara>                    
                                     </MeetTheTeamTextBlock>
                                 </MeetTheTeamBlock> 
                         ))
