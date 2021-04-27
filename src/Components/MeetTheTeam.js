@@ -1,5 +1,15 @@
 import React from 'react';
-import '../style/MeetTheTeam.css';
+
+import { 
+    MeetTheTeamSection,
+    MeetTheTeamHeader2,
+    MeetTheTeamContainer,
+    MeetTheTeamBlock,
+    MeetTheTeamBlockImg,
+    MeetTheTeamTextBlock,
+    MeetTheTeamHeader4,
+    MeetTheTeamPara
+} from '../StyledComponents/MeetTheTeamStyled'
 
     const teamDept = [
                         {name: "Ryan Wilson", department: "Director of Production", img_path: "./img/ryan-wilson.jpg" },
@@ -12,26 +22,26 @@ function MeetTheTeam(){
     
     return (
 
-                <section className="meet-the-team-section">
-                    <h2 className="meet-the-team-h2">Meet The Team</h2>
-                    <div className="meet-the-team-main-container">
+                <MeetTheTeamSection>
+                    <MeetTheTeamHeader2>Meet The Team</MeetTheTeamHeader2>
+                    <MeetTheTeamContainer>
 
                         {teamDept.map((team) => (
 
-                              <div key={Math.random().toString(36).substr(2, 9)} className="meet-team-block">
-                                    <img 
+                              <MeetTheTeamBlock key={Math.random().toString(36).substr(2, 9)} >
+                                    <MeetTheTeamBlockImg
                                         src={team.img_path}
                                         alt=""
                                     />
-                                    <div className="meet-team-text-block">            
-                                        <h4 className="meet-the-team-h4">{team.name}</h4> 
-                                        <p className="meet-the-team-p">{team.department}</p>                    
-                                    </div>
-                                </div> 
+                                    <MeetTheTeamTextBlock>            
+                                        <MeetTheTeamHeader4>{team.name}</MeetTheTeamHeader4> 
+                                        <MeetTheTeamPara>{team.department}</MeetTheTeamPara>                    
+                                    </MeetTheTeamTextBlock>
+                                </MeetTheTeamBlock> 
                         ))
                         }
-                    </div>
-                </section>
+                    </MeetTheTeamContainer>
+                </MeetTheTeamSection>
             );
 };
 
